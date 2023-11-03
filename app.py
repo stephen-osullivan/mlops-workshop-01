@@ -14,7 +14,7 @@ def home():
     """
         this is the home page
     """
-    return "Hello World!"
+    return "Hello MLops 01!"
 
 @app.route('/predict', methods = ['POST'])
 def predict():

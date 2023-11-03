@@ -14,3 +14,6 @@ test:
 
 sample-predict:
 	curl -X POST -H "Content-Type: application/json" -d @sample_predictions.json http://127.0.0.1:5000/predict
+
+azure-predict:
+	curl -X POST -H "Content-Type: application/json" -d @sample_predictions.json https://mlops-workshop-01-app.azurewebsites.net/predict
